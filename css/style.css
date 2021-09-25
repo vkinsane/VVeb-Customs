@@ -102,7 +102,7 @@
   /* left: 96px; */
   left: 6.67vw;
   /* top: 69.88vh; */
-  top: 33.12vh;
+  top: 25vh;
 }
 .trading-form-buy-btn {
   display: flex;
@@ -144,4 +144,11 @@
 }
 .trading-form-content-row {
   background: #f0f8ff;
+}
+.trading-form-2 {
+  width: 672px;
+  height: 152px;
+  /* left: 81px; */
+  /* top: 144px; */
+  margin-top: 4.5vh;
 }
