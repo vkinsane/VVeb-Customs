@@ -1,2 +1,47 @@
-.bean {
+/* Fonts */
+@font-face {
+  font-family: Mont-Bold;
+  src: url("/assets/fonts/Mont-Bold.otf");
+}
+.section-one {
+  font-family: Mont-Bold;
+  font-size: 48px;
+}
+
+/* ************************ */
+.black-rect {
+  /* Rectangle */
+
+  /* position: absolute; */
+  width: 42px;
+  height: 42px;
+  left: 96px;
+  top: 53px;
+
+  /* Primary Black */
+
+  background: #1b1d28;
+}
+
+.contact-btn {
+  /* Auto Layout Horizontal */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+
+  /* position: absolute; */
+  width: 125px;
+  height: 60px;
+  left: 1219px;
+  top: 44px;
+
+  /* Primary Black */
+
+  border: 1.5px solid #1b1d28;
+  filter: drop-shadow(0px 8px 16px rgba(205, 213, 225, 0.16));
 }
