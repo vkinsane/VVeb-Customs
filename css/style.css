@@ -36,7 +36,7 @@
   align-items: center;
   padding: 16px 24px;
 
-  position: absolute;
+  position: relative;
   width: 125px;
   height: 60px;
   /* left: 1219px; */
@@ -52,14 +52,15 @@
 .main-text {
   /* Multi-planet property, That’s not a problem any more. */
 
-  position: absolute;
+  position: relative;
   /* left: 6.67%;
   right: 51.67%;
   top: 3.79%;
   bottom: 93.1%; */
   left: 6.67vw;
   right: 51.67vw;
-  top: 32.8vh;
+  /* top: 32.8vh; */
+  top: 19.1vh;
   bottom: 40.61vh;
 
   /* H1 */
@@ -79,26 +80,68 @@
 }
 .main-image {
   /* Union */
-
-  position: absolute;
+  z-index: -1;
+  position: relative;
   /* width: 576px;
   height: 576px;
   left: 768.34px;
   top: 144px; */
-  left: 53vw;
-  top: 20.44vh;
+  /* left: 53vw;
+  top: 20.44vh; */
 
   /* background: url(luke-van-zyl-koH7IVuwRLw-unsplash.jpg); */
 }
 .trading-form {
   /* Group 200 */
   font-size: 16px;
-  position: absolute;
+  position: relative;
   /* width: 926px; */
   width: 64.3vw;
-  height: 152px;
-  height: 21vh;
+  /* height: 152px; */
+  /* height: 21vh; */
   /* left: 96px; */
   left: 6.67vw;
-  top: 69.88vh;
+  /* top: 69.88vh; */
+  top: 22.08vh;
+}
+.trading-form-buy-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 48px;
+
+  width: 127px;
+  height: 60px;
+  left: 96px;
+  top: 506px;
+
+  background: #f0f8ff;
+}
+.trading-form-sell-btn {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 48px;
+
+  width: 125px;
+  height: 60px;
+  left: 223px;
+  top: 506px;
+
+  /* Primary Black */
+
+  background: #1b1d28;
+}
+.trading-form-explore-now-btn {
+  color: white;
+  /* Primary Black */
+
+  background: #1b1d28;
+  box-shadow: 0px 8px 16px rgba(205, 213, 225, 0.16);
+}
+.trading-form-content-row {
+  background: #f0f8ff;
 }

@@ -42,59 +42,81 @@
     </div>
     <!------------------------------------------ Main row starts -->
     <div class="row border border-primary section-one">
-      <div class="col-6">
+      <div class="col-8 offset-2 col-lg-6 offset-lg-0 border border-danger">
         <div class="main-text">
           Multi-planet property, That’s not a problem any more.
         </div>
-        <!-- <div class="trading-form">
-          <nav>
-            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-              <button
-                class="nav-link active"
-                id="nav-home-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#nav-home"
-                type="button"
-                role="tab"
-                aria-controls="nav-home"
-                aria-selected="true"
-              >
-                Home
-              </button>
-              <button
-                class="nav-link"
-                id="nav-profile-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#nav-profile"
-                type="button"
-                role="tab"
-                aria-controls="nav-profile"
-                aria-selected="false"
-              >
-                Profile
-              </button>
+        <div class="d-none d-lg-block trading-form">
+          <div class="d-flex flex-row">
+            <button
+              type="button"
+              class="trading-form-buy-btn"
+              style="border: 0px"
+            >
+              Buy
+            </button>
+            <button
+              type="button"
+              class="trading-form-sell-btn"
+              style="border: 0px"
+            >
+              Sell
+            </button>
+          </div>
+          <div
+            class="d-flex justify-content-between trading-form-content-row py-2"
+          >
+            <div class="p-2">
+              <div class="dropdown">
+                <span>
+                  <img
+                    src="./assets/images/Icon/24×24/Line/General/Discover.svg"
+                    alt=""
+                    srcset=""
+                  />
+                </span>
+                <select
+                  class="p-2"
+                  name="cars"
+                  id="cars"
+                  style="border: 0px; background-color: #f0f8ff"
+                >
+                  <option value="volvo">Select Planet</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
             </div>
-          </nav>
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active">
-              This is some placeholder content the Home tab's associated
-              content. Clicking another tab will toggle the visibility of this
-              one for the next. The tab JavaScript swaps classes to control the
-              content visibility and styling. You can use it with tabs, pills,
-              and any other .nav-powered navigation.
+            <div class="p-2">
+              <span>
+                <img
+                  class="p-2"
+                  src="./assets/images/Icon/24×24/Line/General/Vector.svg"
+                  alt=""
+                  srcset=""
+                /> </span
+              >Property Type
             </div>
-            <div class="tab-pane fade">
-              This is some placeholder content the P tab's associated content.
-              Clicking another tab will toggle the visibility of this one for
-              the next. The tab JavaScript swaps classes to control the content
-              visibility and styling. You can use it with tabs, pills, and any
-              other .nav-powered navigation.
+            <div class="p-2">
+              <button
+                class="trading-form-explore-now-btn p-2"
+                style="border: 0px"
+              >
+                Explore Now
+                <span
+                  ><img
+                    src="./assets/images/Icon/24×24/Line/General/Arrow Right 1 - SVG.svg"
+                    alt=""
+                    srcset=""
+                /></span>
+              </button>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
-      <div class="col-6">
-        <div class="main-image">
+      <div class="col-12 col-lg-6 border border-dark">
+        <div class="container main-image text-center text-lg-left">
           <img
             src="./assets/images/apartment-main.png"
             style="width: 40vw; height: 40vw"
