@@ -4,8 +4,16 @@
   src: url("/assets/fonts/Mont-Bold.otf");
 }
 .section-one {
-  font-family: Mont-Bold;
+  font-family: Mont-Bold; /*800*/
   font-size: 48px;
+}
+@font-face {
+  font-family: Mont-Semibold; /*600*/
+  src: url("/assets/fonts/Mont-SemiBold.otf");
+}
+.section-two {
+  font-family: Mont-Semibold;
+  font-size: 34px;
 }
 
 /* ************************ */
@@ -151,4 +159,19 @@
   /* left: 81px; */
   /* top: 144px; */
   margin-top: 4.5vh;
+}
+
+/* *****************************section-2 */
+.gallery-card {
+  font-size: 20px;
+  width: fit-content;
+  background: #ffffff;
+  box-shadow: 0px 12px 48px rgba(222, 230, 238, 0.48);
+  margin-left: 2.5%;
+}
+
+.gallery-image {
+  width: 22vw;
+  height: auto;
+  background: url(.jpg), #ffffff;
 }
