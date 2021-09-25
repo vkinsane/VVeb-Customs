@@ -12,11 +12,13 @@
 .black-rect {
   /* Rectangle */
 
-  /* position: absolute; */
+  position: relative;
   width: 42px;
   height: 42px;
-  left: 96px;
-  top: 53px;
+  /* left: 96px; */
+  left: 6.67vw;
+  /* top: 53px; */
+  top: 7.32vh;
 
   /* Primary Black */
 
@@ -34,14 +36,69 @@
   align-items: center;
   padding: 16px 24px;
 
-  /* position: absolute; */
+  position: absolute;
   width: 125px;
   height: 60px;
-  left: 1219px;
-  top: 44px;
+  /* left: 1219px; */
+  left: 84.6vw;
+  top: 6.08vh;
 
   /* Primary Black */
 
   border: 1.5px solid #1b1d28;
   filter: drop-shadow(0px 8px 16px rgba(205, 213, 225, 0.16));
+}
+
+.main-text {
+  /* Multi-planet property, That’s not a problem any more. */
+
+  position: absolute;
+  /* left: 6.67%;
+  right: 51.67%;
+  top: 3.79%;
+  bottom: 93.1%; */
+  left: 6.67vw;
+  right: 51.67vw;
+  top: 32.8vh;
+  bottom: 40.61vh;
+
+  /* H1 */
+
+  font-family: Mont;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+
+  letter-spacing: 0.01em;
+
+  /* Primary Black */
+
+  color: #1b1d28;
+}
+.main-image {
+  /* Union */
+
+  position: absolute;
+  /* width: 576px;
+  height: 576px;
+  left: 768.34px;
+  top: 144px; */
+  left: 53vw;
+  top: 20.44vh;
+
+  /* background: url(luke-van-zyl-koH7IVuwRLw-unsplash.jpg); */
+}
+.trading-form {
+  /* Group 200 */
+  font-size: 16px;
+  position: absolute;
+  /* width: 926px; */
+  width: 64.3vw;
+  height: 152px;
+  height: 21vh;
+  /* left: 96px; */
+  left: 6.67vw;
+  top: 69.88vh;
 }
