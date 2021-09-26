@@ -34,7 +34,83 @@
     />
   </head>
   <body>
-    <div class="menu"></div>
+    <!-- Pc Menu -->
+    <div class="menu d-none d-md-block d-lg-block container col-12">
+      <div class="d-flex bd-highlight mb-3 align-items-center">
+        <div class="me-auto p-2 bd-highlight" style="cursor: pointer">
+          <div class="d-flex flex-row" style="font-size: 24px">
+            <div>
+              <img src="./assets/images/multi-prop-logo.svg" alt="" srcset="" />
+            </div>
+
+            <p class="align">
+              &nbsp;&nbsp;Multi-<span style="color: #24a0ff">Prop</span>
+            </p>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="px-4 py-3 menu-items">Search</div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="px-4 py-3 menu-items">Features</div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="px-4 py-3 menu-items">About Us</div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <button class="px-4 py-3 subscribe-btn">Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <nav
+      class="
+        d-block d-md-none d-lg-none
+        navbar navbar-expand-lg navbar-light
+        bg-light
+      "
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><div class="me-auto p-2 bd-highlight" style="cursor: pointer">
+            <div class="d-flex flex-row" style="font-size: 24px">
+              <div>
+                <img
+                  src="./assets/images/multi-prop-logo.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+
+              <p class="align">
+                &nbsp;&nbsp;Multi-<span style="color: #24a0ff">Prop</span>
+              </p>
+            </div>
+          </div></a
+        >
+        <button
+          class="navbar-toggler dropbtn"
+          type="button"
+          onclick="myFunction()"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <div
+      id="dropdown-menu"
+      style="
+        visibility: hidden;
+        position: absolute;
+        right: 1vw;
+        font-size: 30px;
+      "
+    >
+      <a href="#search">Search</a><br />
+      <a href="#features">Features</a><br />
+      <a href="#about-us">About Us</a>
+    </div>
     <div class="container text-center">
       <div class="container header col-9 col-lg-7">
         Surfing for properties? <br />

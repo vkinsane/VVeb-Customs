@@ -34,8 +34,8 @@
     />
   </head>
   <body>
-    <!-- 1440*724 -->
-    <div class="menu d-none d-lg-block container col-12">
+    <!-- Pc Menu -->
+    <div class="menu d-none d-md-block d-lg-block container col-12">
       <div class="d-flex bd-highlight mb-3 align-items-center">
         <div class="me-auto p-2 bd-highlight" style="cursor: pointer">
           <div class="d-flex flex-row" style="font-size: 24px">
@@ -64,8 +64,13 @@
     </div>
 
     <!-- Mobile Nav -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      class="
+        d-block d-md-none d-lg-none
+        navbar navbar-expand-lg navbar-light
+        bg-light
+      "
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><div class="me-auto p-2 bd-highlight" style="cursor: pointer">
@@ -171,9 +176,13 @@
             <div class="p-2">
               <button
                 class="trading-form-explore-now-btn p-2 mx-2"
-                style="border: 0px"
+                style="border: 0px; cursor: pointer"
               >
-                EXPLORE NOW
+                <a
+                  href="showroom.html"
+                  style="text-decoration: none; color: inherit"
+                  >EXPLORE NOW</a
+                >
                 <span
                   ><img
                     src="./assets/images/Icon/24×24/Line/General/Arrow Right 1 - SVG.svg"
@@ -241,9 +250,13 @@
         <div class="p-2">
           <button
             class="trading-form-explore-now-btn p-2 mx-2"
-            style="border: 0px"
+            style="border: 0px; cursor: pointer"
           >
-            EXPLORE NOW
+            <a
+              href="showroom.html"
+              style="text-decoration: none; color: inherit"
+              >EXPLORE NOW</a
+            >
             <span
               ><img
                 src="./assets/images/Icon/24×24/Line/General/Arrow Right 1 - SVG.svg"
@@ -264,8 +277,13 @@
         trading-form-3
       "
     >
-      <button class="trading-form-explore-now-btn p-2 mx-2" style="border: 0px">
-        EXPLORE NOW
+      <button
+        class="trading-form-explore-now-btn p-2 mx-2"
+        style="border: 0px; cursor: pointer"
+      >
+        <a href="showroom.html" style="text-decoration: none; color: inherit"
+          >EXPLORE NOW</a
+        >
         <span
           ><img
             src="./assets/images/Icon/24×24/Line/General/Arrow Right 1 - SVG.svg"
@@ -308,7 +326,6 @@
             d-flex
             align-items-center
             flex-column flex-lg-row
-            border border-danger
             justify-content-around
           "
         >
@@ -403,7 +420,9 @@
             cursor: pointer;
           "
         >
-          EXPLORE ALL
+          <a href="showroom.html" style="text-decoration: none; color: inherit"
+            >EXPLORE ALL</a
+          >
           <!-- <span> commented
             <img
               src="./assets/images/Icon/24×24/Line/General/Arrow Right-blue.svg"
@@ -459,8 +478,12 @@
                 <div class="grey-circle"></div>
               </div>
             </div>
-            <div class="mt-5" style="color: #24a0ff">
-              EXPLORE NOW
+            <div class="mt-5" style="color: #24a0ff; cursor: pointer">
+              <a
+                href="showroom.html"
+                style="text-decoration: none; color: inherit"
+                >EXPLORE NOW</a
+              >
               <span>
                 <img
                   src="./assets/images/Icon/24×24/Line/General/Arrow Right-blue.svg"
@@ -488,13 +511,13 @@
         file.
       </div>
       <div class="d-flex image-gallery-2" style="margin-top: 7.85vh">
-        <div class="col d-none d-lg-block border border-danger">
+        <div class="col d-none d-lg-block">
           <img
             class="image-gallery-2-img"
             src="./assets/images/Section-4/Rectangle-1.png"
           />
         </div>
-        <div class="col border border-danger">
+        <div class="col">
           <div class="text-center">
             <img
               class="image-gallery-2-img image-2"
@@ -502,7 +525,7 @@
             />
           </div>
         </div>
-        <div class="col border border-danger">
+        <div class="col">
           <div class="text-center">
             <img
               class="image-gallery-2-img"
@@ -510,7 +533,7 @@
             />
           </div>
         </div>
-        <div class="col border border-danger">
+        <div class="col">
           <div class="text-center">
             <img
               class="image-gallery-2-img image-4"
@@ -518,7 +541,7 @@
             />
           </div>
         </div>
-        <div class="col d-none d-lg-block border border-danger">
+        <div class="col d-none d-lg-block">
           <div style="text-align: right !important">
             <img
               class="image-gallery-2-img"
@@ -534,12 +557,12 @@
       class="section-five"
       style="padding-top: 12vh; padding-bottom: 12vh; background: #f0f8ff"
     >
-      <div class="container col-12 border border-danger">
+      <div class="container col-12">
         <div class="offset-1 col-6" style="font-size: 34px">
           Tell us your preference and we will get back to you ASAP!
         </div>
         <div
-          class="container col-10 border border-danger"
+          class="container col-10"
           style="
             margin-top: 6vh;
             padding-bottom: 8vh;
