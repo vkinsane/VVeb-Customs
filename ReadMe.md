@@ -1,20 +1,15 @@
 Normal Text
 
-# heading 1
+# Team : VVeb-Customs
 
-## heading 2
+## Developer : Vishal Khandate
 
-_Italics_
+## Designer : Varun Kelkar
 
-**Strong/Bold**
-
-~~10000~~ **999**
+---
 
 Links
-[Visit website](https://learncodeonline.in "LCO")
-
-Images
-![LCO Mascot](https://learncodeonline.in/mascot.png "LCO")
+[Visit Site](https://vveb-customs-avenir.netlify.app/ "Visit Site")
 
 Use `for` loop
 
@@ -22,3 +17,14 @@ Use `for` loop
 var name = "vishal";
 console.log(name);
 ```
+
+> Quotes
+
+---
+
+_Italics_
+~~10000~~ **999**
+Images
+![LCO Mascot](https://learncodeonline.in/mascot.png "LCO")
+
+**Strong/Bold**
