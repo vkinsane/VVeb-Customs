@@ -11,20 +11,9 @@ Normal Text
 Links
 [Visit Site](https://vveb-customs-avenir.netlify.app/ "Visit Site")
 
-Use `for` loop
-
-```javascript
-var name = "vishal";
-console.log(name);
-```
-
-> Quotes
+> More info at :
+> ![Site Preview and brief info](https://github.com/vkinsane/VVeb-Customs/blob/master/assets/images/For-Readme/Readme.md.png "readme")
 
 ---
 
-_Italics_
-~~10000~~ **999**
-Images
-![LCO Mascot](https://learncodeonline.in/mascot.png "LCO")
-
-**Strong/Bold**
+# Thanks
