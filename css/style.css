@@ -7,6 +7,10 @@
   font-family: Mont-Bold; /*800*/
   font-size: 48px;
 }
+.menu {
+  font-family: Mont-Bold; /*800*/
+  font-size: 15px;
+}
 @font-face {
   font-family: Mont-Semibold; /*600*/
   src: url("/assets/fonts/Mont-SemiBold.otf");
@@ -168,11 +172,17 @@
   background: #ffffff;
   box-shadow: 0px 12px 48px rgba(222, 230, 238, 0.48);
   margin-left: 2.5%;
+  padding-bottom: 2vh;
+}
+.gallery-card h3 {
+  margin-top: 4vh;
+  margin-left: 28px;
 }
 
 .gallery-image {
   width: 22vw;
   height: auto;
+  min-width: 194px;
   /* background: url(.jpg), #ffffff; */
 }
 
@@ -249,4 +259,23 @@
   width: 100%;
   height: 48px;
   font-size: 20px;
+}
+
+/* Menu**************** */
+
+.subscribe-btn {
+  width: 100%;
+  border: 1px solid #1b1d28;
+  background-color: white;
+  color: black;
+}
+.subscribe-btn:hover {
+  width: 100%;
+  border: 1px solid #1b1d28;
+  background-color: black;
+  color: white;
+}
+.menu-items:hover {
+  border-bottom: 2px solid #24a0ff;
+  cursor: pointer;
 }

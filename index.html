@@ -35,11 +35,103 @@
   </head>
   <body>
     <!-- 1440*724 -->
-    <!-- 1440*724 -->
-    <div class="d-flex">
-      <div class="p-2 black-rect"></div>
-      <!-- <div class="p-2 contact-btn">Contact</div> -->
+    <div class="menu d-none d-lg-block container col-12">
+      <div class="d-flex bd-highlight mb-3 align-items-center">
+        <div class="me-auto p-2 bd-highlight" style="cursor: pointer">
+          <div class="d-flex flex-row" style="font-size: 24px">
+            <div>
+              <img src="./assets/images/multi-prop-logo.svg" alt="" srcset="" />
+            </div>
+
+            <p class="align">
+              &nbsp;&nbsp;Multi-<span style="color: #24a0ff">Prop</span>
+            </p>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="px-4 py-3 menu-items">Search</div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="px-4 py-3 menu-items">Features</div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <div class="px-4 py-3 menu-items">About Us</div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <button class="px-4 py-3 subscribe-btn">Subscribe</button>
+        </div>
+      </div>
     </div>
+
+    <!-- Mobile Nav -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><div class="me-auto p-2 bd-highlight" style="cursor: pointer">
+            <div class="d-flex flex-row" style="font-size: 24px">
+              <div>
+                <img
+                  src="./assets/images/multi-prop-logo.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+
+              <p class="align">
+                &nbsp;&nbsp;Multi-<span style="color: #24a0ff">Prop</span>
+              </p>
+            </div>
+          </div></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <div class="d-flex">
+      <div class="p-2 black-rect"></div>
+      <div class="p-2 contact-btn">Contact</div>
+    </div> -->
     <!------------------------------------------ Main row starts -->
     <div class="row section-one">
       <div class="col-8 offset-2 col-lg-6 offset-lg-0">
@@ -71,8 +163,6 @@
                 <span>
                   <img
                     src="./assets/images/Icon/24×24/Line/General/Discover.svg"
-                    alt=""
-                    srcset=""
                   />
                 </span>
                 <select
@@ -88,11 +178,7 @@
                 </select>
               </div>
             </div>
-            <img
-              src="./assets/images/Icon/24×24/Line/General/Rectangle.svg"
-              alt=""
-              srcset=""
-            />
+            <img src="./assets/images/Icon/24×24/Line/General/Rectangle.svg" />
             <div class="p-2">
               <span>
                 <img
@@ -112,8 +198,6 @@
                 <span
                   ><img
                     src="./assets/images/Icon/24×24/Line/General/Arrow Right 1 - SVG.svg"
-                    alt=""
-                    srcset=""
                 /></span>
               </button>
             </div>
@@ -172,8 +256,6 @@
             <img
               class="p-2"
               src="./assets/images/Icon/24×24/Line/General/Vector.svg"
-              alt=""
-              srcset=""
             /> </span
           >Property Type
         </div>
@@ -242,22 +324,26 @@
         class="image-gallery-section"
         style="margin-top: 18vh; padding-bottom: 18vh"
       >
-        <div class="d-flex flex-row">
-          <div class="gallery-card">
+        <div
+          class="
+            d-flex
+            align-items-center
+            flex-column flex-lg-row
+            border border-danger
+            justify-content-around
+          "
+        >
+          <div style="margin-top: 2vh" class="gallery-card text-center">
             <img
               class="gallery-image p-2"
-              src="./assets/images/Image-Gallery/Apartment-1.png"
-              alt=""
-              srcset=""
+              src="./assets/images/Display-Section-2/Auto Layout Horizontal-1.png"
             />
-            <h3 style="margin-top: 6.1vh">H3 Headline</h3>
+            <h3>Marshine</h3>
             <div class="card-details text-left" style="margin-left: 6.12%">
               <div class="row" style="margin-top: 4.6vh">
                 <div class="col-3">
                   <img
                     src="./assets/images/Icon/24×24/Line/General/Discover.svg"
-                    alt=""
-                    srcset=""
                   />
                 </div>
                 <div class="col-9">Saturn 6th Moon</div>
@@ -266,29 +352,23 @@
                 <div class="col-3">
                   <img
                     src="./assets/images/Icon/24×24/Line/General/card-star.svg"
-                    alt=""
-                    srcset=""
                   />
                 </div>
                 <div class="col-9">Trending No. 1</div>
               </div>
             </div>
           </div>
-          <div class="gallery-card">
+          <div style="margin-top: 2vh" class="gallery-card text-center">
             <img
               class="gallery-image p-2"
-              src="./assets/images/Image-Gallery/Apartment-1.png"
-              alt=""
-              srcset=""
+              src="./assets/images/Display-Section-2/Auto Layout Horizontal-2.png"
             />
-            <h3 style="margin-top: 6.1vh">H3 Headline</h3>
+            <h3>Moon Shadow</h3>
             <div class="card-details text-left" style="margin-left: 6.12%">
               <div class="row" style="margin-top: 4.6vh">
                 <div class="col-3">
                   <img
                     src="./assets/images/Icon/24×24/Line/General/Discover.svg"
-                    alt=""
-                    srcset=""
                   />
                 </div>
                 <div class="col-9">Saturn 6th Moon</div>
@@ -297,29 +377,23 @@
                 <div class="col-3">
                   <img
                     src="./assets/images/Icon/24×24/Line/General/card-star.svg"
-                    alt=""
-                    srcset=""
                   />
                 </div>
                 <div class="col-9">Trending No. 1</div>
               </div>
             </div>
           </div>
-          <div class="gallery-card">
+          <div style="margin-top: 2vh" class="gallery-card text-center">
             <img
               class="gallery-image p-2"
-              src="./assets/images/Image-Gallery/Apartment-1.png"
-              alt=""
-              srcset=""
+              src="./assets/images/Display-Section-2/Auto Layout Horizontal-3.png"
             />
-            <h3 style="margin-top: 6.1vh">H3 Headline</h3>
+            <h3>Saturnite C - 63</h3>
             <div class="card-details text-left" style="margin-left: 6.12%">
               <div class="row" style="margin-top: 4.6vh">
                 <div class="col-3">
                   <img
                     src="./assets/images/Icon/24×24/Line/General/Discover.svg"
-                    alt=""
-                    srcset=""
                   />
                 </div>
                 <div class="col-9">Saturn 6th Moon</div>
@@ -328,8 +402,6 @@
                 <div class="col-3">
                   <img
                     src="./assets/images/Icon/24×24/Line/General/card-star.svg"
-                    alt=""
-                    srcset=""
                   />
                 </div>
                 <div class="col-9">Trending No. 1</div>
@@ -337,11 +409,35 @@
             </div>
           </div>
         </div>
+        <div
+          class="
+            container
+            col-6 col-sm-4 col-md-4 col-lg-2
+            text-center
+            mt-5
+            p-2
+          "
+          style="
+            color: #24a0ff;
+            font-size: 24px;
+            border: 1px solid #24a0ff;
+            cursor: pointer;
+          "
+        >
+          EXPLORE ALL
+          <!-- <span> commented
+            <img
+              src="./assets/images/Icon/24×24/Line/General/Arrow Right-blue.svg"
+              height="0%"
+              width="8%"
+            />
+          </span> -->
+        </div>
       </div>
     </div>
 
     <!---------------------------------------------[ Section-3 ]------------------------------------------------ -->
-    <div class="section-three" style="margin-top: 36vh; margin-bottom: 36vh">
+    <div class="section-three" style="margin-top: 36vh; margin-bottom: 15vh">
       <div
         class="parent-container"
         style="margin-top: 12.12vh; margin-bottom: 12.12vh"
@@ -400,7 +496,10 @@
     </div>
 
     <!---------------------------------------------[ Section-4 ]------------------------------------------------ -->
-    <div class="section-four" style="padding-top: 12vh; padding-bottom: 12vh">
+    <div
+      class="section-four"
+      style="padding-top: 12vh; padding-bottom: 12vh; overflow-x: hidden"
+    >
       <div class="section-4-header">
         <h2 class="container col-3 text-center">Interior on Mars!</h2>
       </div>
@@ -410,7 +509,7 @@
         file.
       </div>
       <div class="d-flex image-gallery-2" style="margin-top: 7.85vh">
-        <div class="col border border-danger">
+        <div class="col d-none d-lg-block border border-danger">
           <img
             class="image-gallery-2-img"
             src="./assets/images/Section-4/Rectangle-1.png"
@@ -440,7 +539,7 @@
             />
           </div>
         </div>
-        <div class="col border border-danger">
+        <div class="col d-none d-lg-block border border-danger">
           <div style="text-align: right !important">
             <img
               class="image-gallery-2-img"
@@ -471,7 +570,7 @@
           <div class="row mt-5">
             <div class="offset-1 col-10 col-lg-4">
               <div class="input-grp">
-                <p>Name on Card</p>
+                <p>First Name</p>
                 <div style="position: relative">
                   <img
                     src="./assets/images/Icon/24×24/Line/General/mail-box.svg"
@@ -480,7 +579,7 @@
                 </div>
               </div>
               <div class="input-grp">
-                <p>Name on Card</p>
+                <p>Last Name</p>
                 <div style="position: relative">
                   <img
                     src="./assets/images/Icon/24×24/Line/General/mail-box.svg"
@@ -489,7 +588,7 @@
                 </div>
               </div>
               <div class="input-grp">
-                <p>Name on Card</p>
+                <p>Email Address</p>
                 <div style="position: relative">
                   <img
                     src="./assets/images/Icon/24×24/Line/General/mail-box.svg"
@@ -500,7 +599,7 @@
             </div>
             <div class="offset-1 col-10 offset-lg-2 col-lg-4">
               <div class="input-grp">
-                <p>Name on Card</p>
+                <p>Galaxy UID</p>
                 <div style="position: relative">
                   <img
                     src="./assets/images/Icon/24×24/Line/General/mail-box.svg"
@@ -509,7 +608,7 @@
                 </div>
               </div>
               <div class="input-grp d-none d-lg-block">
-                <p>Name on Card</p>
+                <p>Prefered Planet</p>
                 <div style="position: relative">
                   <img
                     src="./assets/images/Icon/24×24/Line/General/mail-box.svg"
@@ -518,7 +617,7 @@
                 </div>
               </div>
               <div class="input-grp d-none d-lg-block">
-                <p>Name on Card</p>
+                <p>Preferred Property Type</p>
                 <div style="position: relative">
                   <img
                     src="./assets/images/Icon/24×24/Line/General/mail-box.svg"
@@ -541,8 +640,6 @@
                 <span
                   ><img
                     src="./assets/images/Icon/24×24/Line/General/Arrow Top Right 1 - SVG.svg"
-                    alt=""
-                    srcset=""
                 /></span>
               </button>
             </div>
