@@ -8,7 +8,7 @@ Normal Text
 
 ---
 
-Links
+Website is Deployed here 👇:
 [Visit Site](https://vveb-customs-avenir.netlify.app/ "Visit Site")
 
 > More info at :
@@ -16,4 +16,4 @@ Links
 
 ---
 
-# Thanks
+# Thanks to IEEE VIT Pune, Student Branch for giving us this opportunity .
