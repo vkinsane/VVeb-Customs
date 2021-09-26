@@ -115,6 +115,7 @@
   /* Union */
   z-index: -1;
   position: relative;
+  /* min-width: 331px; */
   /* width: 576px;
   height: 576px;
   left: 768.34px;
@@ -123,6 +124,14 @@
   top: 20.44vh; */
 
   /* background: url(luke-van-zyl-koH7IVuwRLw-unsplash.jpg); */
+}
+@media screen and (max-width: 922px) {
+  .main-image {
+    margin-top: -2vh;
+  }
+  .main-text {
+    font-size: 30px;
+  }
 }
 .trading-form {
   /* Group 200 */

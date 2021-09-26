@@ -11,3 +11,14 @@ _Italics_
 ~~10000~~ **999**
 
 Links
+[Visit website](https://learncodeonline.in "LCO")
+
+Images
+![LCO Mascot](https://learncodeonline.in/mascot.png "LCO")
+
+Use `for` loop
+
+```javascript
+var name = "vishal";
+console.log(name);
+```
