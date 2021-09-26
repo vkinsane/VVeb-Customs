@@ -3,6 +3,21 @@
   font-family: Mont-Bold;
   src: url("/assets/fonts/Mont-Bold.otf");
 }
+@font-face {
+  font-family: Mont-Semibold; /*600*/
+  src: url("/assets/fonts/Mont-SemiBold.otf");
+}
+@font-face {
+  font-family: Mont-Regular;
+  src: url("/assets/fonts/Mont-Regular.otf");
+}
+@font-face {
+  font-family: Avenir;
+  src: url("/assets/fonts/Avenir.ttc");
+}
+.avenir-para {
+  font-family: Avenir;
+}
 .section-one {
   font-family: Mont-Bold; /*800*/
   font-size: 48px;
@@ -11,15 +26,21 @@
   font-family: Mont-Bold; /*800*/
   font-size: 15px;
 }
-@font-face {
-  font-family: Mont-Semibold; /*600*/
-  src: url("/assets/fonts/Mont-SemiBold.otf");
+.section-three,
+.section-five,
+.section-four,
+#dropdown-menu {
+  font-family: Mont-Bold; /*800*/
 }
+
 .section-two {
   font-family: Mont-Semibold;
   font-size: 34px;
 }
-
+.section-3-para,
+.section-4-para {
+  font-family: Mont-Regular;
+}
 /* ************************ */
 .black-rect {
   /* Rectangle */
@@ -243,6 +264,7 @@
   margin-top: 24px;
 }
 .input-grp p {
+  font-family: Mont-Semibold;
   margin-bottom: 8px;
   font-size: 25px;
 }
@@ -254,6 +276,7 @@
   top: 8px;
 }
 .input-grp div input {
+  font-family: Mont-Regular;
   border: 1px solid gray;
   padding-left: 50px;
   width: 100%;

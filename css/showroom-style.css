@@ -7,9 +7,19 @@
   font-family: Mont-Semibold; /*600*/
   src: url("/assets/fonts/Mont-SemiBold.otf");
 }
+@font-face {
+  font-family: Avenir;
+  src: url("/assets/fonts/Avenir.ttc");
+}
 .header {
   font-family: Mont-Bold; /*800*/
   font-size: 48px;
+}
+.menu,
+#dropdown-menu,
+.image-card-gallery,
+.footer {
+  font-family: Mont-Semibold;
 }
 @media screen and (max-width: 922px) {
   .header {
