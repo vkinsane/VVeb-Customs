@@ -173,5 +173,45 @@
 .gallery-image {
   width: 22vw;
   height: auto;
-  background: url(.jpg), #ffffff;
+  /* background: url(.jpg), #ffffff; */
+}
+
+/* *****************************section-3 */
+.apartment-section-3 {
+  position: relative;
+  left: 5.14vw;
+  /* height: 61vh; */
+  /* width: 61vh; */
+  height: 33.14vw;
+  max-height: 70vh;
+}
+.div-wrapper {
+  position: relative;
+  /* max-height: 15vh; */
+  height: 45.75vh;
+  width: 37.3vw;
+  background-color: #f0f8ff;
+}
+
+.div-wrapper img {
+  position: absolute;
+  margin-left: 5.14vw;
+  bottom: 0;
+}
+@media screen and (max-width: 922px) {
+  .div-wrapper img {
+    margin-left: unset;
+  }
+  .div-wrapper {
+    height: 20.75vh;
+  }
+}
+
+.grey-circle {
+  min-height: 4vh;
+  min-width: 4vh;
+  border-radius: 50%;
+  width: 2.7vw;
+  height: 2.7vw;
+  background: #c4c4c4;
 }
